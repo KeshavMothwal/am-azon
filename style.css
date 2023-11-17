@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  font-family: arial;
+  border: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.nav {
+    display: flex;
+  height: 60px;
+  background-color: #131921;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo {
+    margin-right: 5px;
+  height: 50px;
+  width: 120px;
+  display: flex;
+}
+.logo {
+  height: 60px;
+  width: 100%;
+  display: flex;
+}
+.p{
+    font-size:small ;
+    position: relative;
+    top: 17px;
+    right: 8px;
+}
+.border {
+  position: relative;
+    top: 2px;
+    height:50px;
+  border-radius: 2px;
+}
+.border:hover {
+  border: 1px solid white;
+}
+.nav-address{
+    margin-right: 15px;
+    padding-left: 2px;
+    display: block;
+    height: 50px;
+    width: 70px;
+}
+.address{
+    display: flex;
+    position: relative;
+    top: 13px;
+    left: 3px;
+    font-size: small;
+    font-weight: 10; 
+}
+.icon{
+    position: relative;
+    top: 13px;
+    right: 4px;
+}  
+.nav-search{
+display: flex;
+width: 690px;
+height: 35px;
+position: relative;
+border-radius: 5px;
+background-color: rgb(215, 155, 43);
+border: 2px solid orange;
+}
+.nav-search:hover{
+  border: 3px solid orange;
+
+}
+.search-select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 45px;
+    background-color: rgb(240, 240, 240);
+}
+.search-input{
+    width: 600px;
+}
+.search-icon{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.lang{
+ display: flex;
+ position: relative;
+
+ height: 45px;
+ width: 60px;
+  
+}
+.flag{
+  position: inherit;
+  top: 15px;
+  left: 5px;
+}
+.sp{
+  font-size: 0.7rem;
+}
+.nav_sec{
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.cart i{
+  font-size: 30px;
+  position: relative;
+  top:5px;
+}
+.panel{
+  display: flex;
+  height: 40px;
+  background-color: #222f3d;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.panel_all{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 70px;
+}
+.panel_ops span{
+  display: inline;
+  margin-left:15px ;
+}
+.panel_ops{
+  width: 950px;
+  font-size :0.85rem; ;
+}
+.panel_deal{
+  font-size: 0.9rem;
+  font-weight: 700;
+  position: relative;
+  top: 10px;
+  left: 5px;
+  width: 300px;
+}
+.border_sec{
+  height: 100%;
+
+}
+.border_sec:hover{
+  border: 1px solid white;
+}
